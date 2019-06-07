@@ -1,1 +1,33 @@
 // Mixins Here
+.button(@font-size, @width) {
+    background: @btn-bg-color;
+    color: @porcelain;
+    font-size: @font-size;
+    width: @width;
+    padding: .8rem 0;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.button-hov(@font-size, @width) {
+    background: @porcelain;
+    color: @btn-bg-color;
+    font-size: @font-size;
+    width: @width;
+    padding: .8rem 0;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.nav-mix(){
+    width: 100rem;
+    margin: 0 auto;
+    color: #22283B;
+    background: #f4f4f4;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
